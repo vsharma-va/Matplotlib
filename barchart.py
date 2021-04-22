@@ -31,7 +31,6 @@ plt.legend('upper right')
 plt.tight_layout()
 plt.show()
 
-
 # Using pandas
 data = pd.read_csv("Resources/data1.csv", sep=',')
 df = pd.DataFrame(data)
@@ -51,4 +50,3 @@ plt.ylabel("Popularity")
 plt.barh(langNames, popularity)
 plt.tight_layout()
 plt.show()
-
